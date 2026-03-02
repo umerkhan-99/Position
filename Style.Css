@@ -1,25 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     /* display: flex;
     justify-content: center;
     align-items: center; */
     height: 100vh;
-    background-color: beige;
+    background-color: #f9cbff;
     position: relative;
     background-image: url(/Images/World\ Cup.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(255, 117, 237);
+    background-color: #390041;
     border-bottom: 2px solid rgb(76, 0, 78);
     position: fixed;
     top: 0;
@@ -30,22 +31,24 @@ header{
 
 }
 
-h1{
+h1 {
     font-size: 40px;
-    color: rgb(86, 0, 88);
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 2;
     margin: 10px;
 }
-nav{
+
+nav {
     display: flex;
     gap: 20px;
 }
-a{
+
+a {
     text-decoration: none;
-    color: rgb(71, 0, 73);
+    color: rgb(255, 255, 255);
     font-size: 18px;
-    border: 1px solid rgb(71, 0, 73);
+    border: 1px solid rgb(255, 255, 255);
     padding: 5px;
     border-radius: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -54,41 +57,51 @@ a{
     justify-content: center;
 }
 
-a:hover{
+a:hover {
     background-color: rgb(247, 0, 255);
-    color: white;
+    color: #f9cbff;
     transition: 0.9s ease-in-out;
 }
 
-.main-container{
+.main-container {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
-.position-container{
+.position-container {
     width: 200px;
-    height: 200px;
-    background-color: rgb(255, 117, 237);
+    height: 500px;
+    background-color: #f9cbff49;
     margin: 20px;
     border-radius: 10px;
     border: 2px solid rgb(247, 0, 255);
     position: relative;
-    box-shadow: 5px 5px 10px rgb(247, 0, 255);
+    text-align: center;
+    font-family: cursive;
+    padding: 10px;
 }
 
-.position-container:hover{
+.position-container:hover {
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
+    box-shadow: 2px 2px 5px rgb(247, 0, 255);
 }
 
-#margin-top{
+#margin-top {
     margin-top: 80px;
 
 }
 
-img{
+img {
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 7px;
+}
+
+p {
+    margin: 0px;
+    padding: 0%;
+    font-size: 18px;
+    color: rgb(56, 0, 58);
 }
